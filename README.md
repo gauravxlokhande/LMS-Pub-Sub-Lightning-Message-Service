@@ -1,5 +1,8 @@
 # Pub-Sub LWC : Lightning Message Service.
 
+![image](https://github.com/gauravxlokhande/LMS-Pub-Sub-Lightning-Message-Service/assets/119065314/90387f9b-bc95-46eb-a57d-73550e3b330b)
+
+
 ## Steps to use Pub-Sub:
 
 ## Step 1 : create a folder named "messageChannels" under the "force-app".
