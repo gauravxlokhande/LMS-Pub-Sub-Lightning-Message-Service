@@ -1,18 +1,14 @@
-# Salesforce DX Project: Next Steps
+# Pub-Sub LWC : Lightning Message Service.
 
-Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
+## Steps to use Pub-Sub:
 
-## How Do You Plan to Deploy Your Changes?
+## Step 1 : create a folder named "messageChannels" under the "force-app".
+![image](https://github.com/gauravxlokhande/Pub-Sub_Lightning_Web_Components/assets/119065314/6cde8c4d-a218-44e1-8595-ceced5b7d549)
 
-Do you want to deploy a set of changes, or create a self-contained application? Choose a [development model](https://developer.salesforce.com/tools/vscode/en/user-guide/development-models).
+## Step 2 : create the file named "Counting_Update.messageChannel-meta.xml".  // "Counting_Update" is a name of xml file.
+![image](https://github.com/gauravxlokhande/Pub-Sub_Lightning_Web_Components/assets/119065314/dde18ec3-f5a4-455b-80ca-bd70ed89ea81)
 
-## Configure Your Salesforce DX Project
+- inside the xml file declear the messagefield inside it fieldname for the field.
 
-The `sfdx-project.json` file contains useful configuration information for your project. See [Salesforce DX Project Configuration](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_config.htm) in the _Salesforce DX Developer Guide_ for details about this file.
+## Step 3: 
 
-## Read All About It
-
-- [Salesforce Extensions Documentation](https://developer.salesforce.com/tools/vscode/)
-- [Salesforce CLI Setup Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)
-- [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_intro.htm)
-- [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm)
