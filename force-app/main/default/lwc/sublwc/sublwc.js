@@ -21,6 +21,8 @@ export default class SubLWC extends LightningElement {
         );
     }
 
+    name;
+
     handleMessage(message) {
         if (message.operator === 'add') {
             this.counter += message.constant;
@@ -28,6 +30,8 @@ export default class SubLWC extends LightningElement {
             this.counter -= message.constant;
         } else if (message.operator === 'multiply') {
             this.counter *= message.constant;
+        }else if (message.operator ==='name') {
+            this.name = message.constant;
         }
     }
 }
